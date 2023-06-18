@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/gesture_based_calculator.iml" filepath="$PROJECT_DIR$/.idea/gesture_based_calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../open_cv/.idea/open_cv.iml" filepath="$PROJECT_DIR$/../open_cv/.idea/open_cv.iml" />
+    </modules>
+  </component>
+</project>
