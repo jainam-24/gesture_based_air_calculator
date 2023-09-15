@@ -17,6 +17,7 @@ class Button:
         self.height=height
         self.value=value
     def draw(self,img):
+        #image = cv2.rectangle(image, start_point, end_point, color, thickness)
         cv2.rectangle(img, self.pos, (self.pos[0]+self.width,self.pos[1]+self.height), (200, 200, 200), cv2.FILLED)
         cv2.rectangle(img, self.pos, (self.pos[0]+self.width,self.pos[1]+self.height),(50, 50, 50), 3)
         cv2.putText(img, self.value, (self.pos[0]+40,self.pos[1]+60), cv2.FONT_HERSHEY_PLAIN, 2, (50, 50, 50), 2)
@@ -38,8 +39,8 @@ class Button:
 #creating buttons
 buttonListvalues=[['7','8','9','*'],
                   ['4','5','6','-'],
-                  ['1','2','3','+'],
-                  ['0','.','=','/']]
+                  ['1','2','3','+'], 
+                  ['0','.','=','/']] 
 buttonList=[]
 for x in range(4):
     for y in range(4):
